@@ -1,15 +1,16 @@
 ﻿/*
-7 lvl - max diff - easy
-You must implement a function that returns the difference between the largest and the smallest value in a given list / array (lst) received as the parameter.
+7 lvl - max diff - einfach
+Sie müssen eine Funktion implementieren, die die Differenz zwischen dem größten und dem kleinsten Wert einer als Parameter 
+übergebenen Liste/eines Arrays (lst) zurückgibt.
 
-lst contains integers, that means it may contain some negative numbers
-if lst is empty or contains a single element, return 0
-lst is not sorted
-[1, 2, 3, 4]   //  returns 3 because 4 -   1  == 3
-[1, 2, 3, -4]  //  returns 7 because 3 - (-4) == 7
-Have fun!
+lst enthält Ganzzahlen, d. h. es können auch negative Zahlen enthalten sein.
+Wenn lst leer ist oder nur ein Element enthält, wird 0 zurückgegeben.
+lst ist nicht sortiert.
 
-MathematicsListsArraysFundamentals
+[1, 2, 3, 4] // Gibt 3 zurück, da 4 - 1 == 3.
+[1, 2, 3, -4] // Gibt 7 zurück, da 3 - (-4) == 7.
+
+Viel Spaß!
  */
 using System.Linq;
 
